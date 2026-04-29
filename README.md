@@ -8,31 +8,28 @@
 * **정합성 검증:** 분할 전후의 특정 영역 텍스트(POSTID 등)를 추출(`PdfTextExtractor`)하여 파일이 정확히 분할되었는지 검증합니다.
 * **환경:** Microsoft Visual Studio / C# .NET
 
-## ⚖️ 라이선스 (License) - AGPLv3 적용
+## ⚖️ 라이선스 및 컴플라이언스 (License & Compliance)
 
 본 프로젝트는 오픈소스 라이브러리인 iText 7을 사용하고 있으며, 이에 따라 전체 소스 코드는 **GNU Affero General Public License v3.0 (AGPL-3.0)**에 의거하여 배포됩니다.
 
-**오픈소스 준수 및 고지:**
+> **[Compliance Notice]**
+> This project is used as part of a business system for PDF processing. The source code is provided strictly to comply with the AGPL-3.0 license requirements.
+> (본 프로젝트는 비즈니스 시스템의 PDF 처리 모듈로 사용되며, 본 소스 코드는 AGPL-3.0 라이선스의 소스코드 공개 의무를 완벽히 준수하기 위한 목적으로 투명하게 공개되었습니다.)
+
+**오픈소스 준수 및 고지사항:**
 1. 본 프로그램의 코드를 복사, 수정, 배포하거나 네트워크 서비스 형태로 제공하는 경우, 해당 시스템의 소스 코드 역시 AGPLv3 조건에 따라 공개해야 할 의무가 발생할 수 있습니다.
 2. 기업 환경 등 소스 코드 공개를 원치 않는 상업적 용도로 본 프로그램을 활용하고자 할 경우, iText 공식 홈페이지를 통해 상업용 라이선스(Commercial License)를 별도로 취득하시기 바랍니다.
 
 * **iText 7 License 정보:** [https://itextpdf.com/en/how-it-works/agpl-license](https://itextpdf.com/en/how-it-works/agpl-license)
+* **Source Code Repository:** [https://github.com/datazoneDM/EasyPDF2-Splitter](https://github.com/datazoneDM/EasyPDF2-Splitter)
 
-## License
+---
+
+### English License Notice
 
 This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
 
-This project uses iText 7.
-
-iText 7 is licensed under the GNU Affero General Public License (AGPL) v3.
+This project uses iText 7, which is licensed under the GNU Affero General Public License (AGPL) v3. 
 Copyright (c) iText Software.
 
-If you use this software over a network or distribute it,
-you must provide access to the complete corresponding source code
-as required by the AGPL license.
-
-Source Code:
-https://github.com/datazoneDM/EasyPDF2-Splitter
-
-For more information about iText licensing:
-https://itextpdf.com
+If you use this software over a network or distribute it, you must provide access to the complete corresponding source code as required by the AGPL license. For more information about iText licensing, please visit: https://itextpdf.com
